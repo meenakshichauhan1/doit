@@ -1,0 +1,42 @@
+name: information Theme
+type: theme
+description: 'Basic structure for A & U Tibbia College & Hospital Theme.'
+core_version_requirement: ^8 || ^9 || ^10
+base theme: olivero
+
+
+libraries:
+  - information/global-styling
+
+regions:
+  top_header_one: 'Top header One'
+  top_header_two: 'Top header Two'
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  banner: Banner
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  content: Content
+  featured_one: 'Featured One'
+  featured_two: 'Featured Two'
+  featured_three: 'Featured Three'
+  featured_four: 'Featured Four'
+  featured_five: 'Featured Five'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_top: 'Footer Top'
+  footer_left: 'Footer Left'
+  footer_centre: 'Footer Centre'
+  footer_right: 'Footer Right'
+  footer_bottom_one: 'Footer Bottom One'
+  footer_bottom_two: 'Footer Bottom Two'
+  footer_bottom_three: 'Footer Bottom Three'
+  language_switcher: 'Language Switcher'
+  popup: 'Home Page Popup'
+

@@ -1,0 +1,175 @@
+<!--====== Header START =====-->
+{% include '@itdomain_main/includes/header.html.twig' %}
+<!--====== Header END =====-->
+{% set has_popup = page.top_header_one|render|striptags('<img><iframe><object><svg>')|trim|length %}
+   {% if has_popup %}
+<div class="container">
+    <div class="news_feed">
+       <div class="row">
+          <div class="col-lg-2 col-md-3 p-news">
+             <h2 class="newsfeed_label" tabindex="0">Latest News</h2>
+          </div>
+          <div class="col-lg-10 col-md-9">
+                      {{ page.top_header_one }}
+          </div>
+       </div>
+    </div>
+ </div>
+{% endif %}
+<div class="banner-wrapper bg-light-blue theme-2 position-relative">
+{#{{ page.banner }}#}
+{% if is_mobile() %}
+{{drupal_view('home_page_banner', 'block_3') }}
+{% else %}
+{{drupal_view('home_page_banner', 'block_1') }}
+{% endif %}
+</div>
+<div  id="maincontent"> 
+<!--====== Notification and Tendet Tab =====-->
+   <div class="news-department news-department-bg py-50">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 col-lg-12">
+                  <div id = "tabs" class=" notification-tab">
+                  <ul class="nav nav-tabs  border-0">
+                  <li class="nav-item ">
+                  <a href="#notifications" data-toggle="tab" onclick="clickHandle(event, 'Notifications')" class="tablinks active"><span>{% trans %}Notifications {% endtrans %}</span></a>
+                  </li>
+                  <li class="nav-item ">
+                  <a href="#tenders" data-toggle="tab" onclick="clickHandle(event, 'Tenders')" class="tablinks"><span>{% trans %} Tenders {% endtrans %}</span></a>
+                  </li>
+                  </ul>
+                  <div class="tab-content bg-white home_news_publication" >
+                  <div id ="Notifications" class="tabcontent">
+                  <div class="noti-list"> {{drupal_view('circular_order_notification_tender', 'block_1') }}
+                  </div>
+                  <div class="action-button">
+                     <a title="View All" href="/notifications" class="tab-view yellow-btn">View All</a>
+                 </div>   
+                  </div>
+                  <div id ="Tenders" class="tabcontent" style="display: none;">
+                  <div class="noti-list "> {{ drupal_view('circular_order_notification_tender', 'block_2') }}
+                  </div>
+                  <div class="action-button">
+                        <a title="View All" href="/tenders" class="tab-view yellow-btn">View All</a>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                   </div>
+            </div>
+         </div>
+   <!--======Notification and Tendet Tab End =====-->
+ <!-- Our Services -->
+ {% set has_featured_two = page.featured_two|render|striptags('<img><iframe><object><svg>')|trim|length %}
+     {% if has_featured_two %}
+   <div class="our-service py-50" >
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12 ">
+               {{ page.featured_two }}
+            </div>
+         </div>
+        
+      </div>
+   </div>
+{% endif %}
+   <!-- #Our Services End-->
+
+   <div class="service-sec bg-key py-50">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+            <div class="more-services owl-carousel">
+               <div class="service-list">
+                  <img src="{{ directory }}/images/tour.png" alt="service">
+                  <div class="figcaption">
+                     <a href="#" >Foreign and Domestic Official Tours</a>
+                   </div>
+               </div>
+               <div class="service-list">
+                  <img src="{{ directory }}/images/technical.png" alt="service">
+                  <div class="figcaption ">
+                     <a href="#" >Standard Technical Specifications</a>
+                   </div>
+               </div>
+               <div class="service-list">
+                  <img src="{{ directory }}/images/recuitment.png" alt="service">
+                  <div class="figcaption ">
+                     <a href="#" >Recruitments</a>
+                   </div>
+               </div>
+               <div class="service-list">
+                  <img src="{{ directory }}/images/download.png" alt="service">
+                  <div class="figcaption ">
+                     <a href="#" >Download Forms</a>
+                   </div>
+               </div>
+            </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+
+
+   <!-- News  and Updates -->
+   <div class="container-fluid">
+         <div class="row">
+               <div class="col-sm-12 p-0">
+                  <div class="latest_vedio news-department-bg py-50">
+                     {{ page.featured_four }}
+                  </div>
+               </div>
+         </div>
+   </div>
+   <!-- #News and Updates End-->
+   <!-- Intro write-ups -->
+   <div class="introduction">
+   <div class="container">
+      <div class="row">
+       <div class="col-sm-12">
+      <div class="know-more py-50">
+             {{ page.featured_five }}
+      </div>
+   </div>
+   </div>
+</div>
+</div>
+</div>
+<!--====== FOOTER START =====-->
+{% include '@itdomain_main/includes/footer.html.twig' %}
+<!--====== FOOTER END =====-->
+{% set has_popup = page.popup|render|striptags('<img><iframe><object><svg>')|trim|length %}
+   {% if has_popup %}
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+<div class="modal-dialog modal-lg">
+
+  <!-- Modal content-->
+  <div class="modal-content">
+    
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      
+    <div class="modal-body p-0">
+       <div id="doit_flayer" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+                {{ page.popup }} 
+                </div>
+                <a class="carousel-control-prev" href="#doit_flayer" role="button" data-slide="prev">
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                   <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#doit_flayer" role="button" data-slide="next">
+                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                   <span class="sr-only">Next</span>
+                </a>
+             </div>
+       </div>
+    
+  </div>
+
+</div>
+</div>   
+{% endif %}

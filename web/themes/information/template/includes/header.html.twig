@@ -1,0 +1,105 @@
+<!--====== HEADER START  ========-->
+<div class="wrapper light-header design-2">
+   <div class="top-nav">
+      <a href="javascript:void(0);" class="humburger-ico"><i class="fas fa-bars"></i></a>
+      <a href="javascript:void(0);" class="closemenu"><i class="fas fa-times"></i></a>
+      <div class="container position-relative">
+         <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-5">
+
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-7">
+               <ul class="right-panel float-right">
+                  <li class="dropdown cog-dropdown"><a href="#" class="skip-content" id="skip_btn">
+                        <img src="/{{ directory }}/images/ico-skip.png"
+                           title="Click to read main content" alt="logo">
+                     </a></li>
+                  <li class="dropdown cog-dropdown">
+                     {% if lang == 'en' %}
+                     <a href="{{host}}/screen-reader-access" class="skip-content"
+                        title="Screen Reader Access" id="screenreader">
+                     {% else %}
+                     <a href="{{host}}/hi/screen-reader-access" class="skip-content"
+                        title="Screen Reader Access" id="screenreader">
+                     {% endif %}
+                        <img src="/{{ directory }}/images/screenreader.png" alt="logo">
+                     </a>
+                  </li>
+                  <li class="dropdown cog-dropdown">
+                     <a href="javascript:void(0);" class="dropdown-toggle" title="Accessibility Dropdown"
+                        data-toggle="dropdown">
+                        <i class="fas fa-wheelchair"></i>
+                     </a>
+                     <div class="dropdown-menu font-menu">
+                        <a class="dropdown-item" href="javascript:void(0);" title="Font Size Increase"
+                           onclick="setFontSize('plus');">A <sup>+</sup></a>
+                        <a class="dropdown-item" href="javascript:void(0);" title="Default"
+                           onclick="setFontSize('default');">A <sup>&nbsp;</sup></a>
+                        <a class="dropdown-item" href="javascript:void(0);" title="Font Size decrease"
+                           onclick="setFontSize('minus');">A <sup>-</sup></a>
+                        <a href="javascript:void(0);" onclick="setTheme('default');" title="Default Theme"
+                           class="bg-default dropdown-item blue-theme" > A </a>
+                        <a href="javascript:void(0);" class="bg-dark dropdown-item black-theme" title="Dark Theme"
+                           onclick="setTheme('darkvariable');" > A </a>  
+
+                     </div>
+                  </li>
+                  <li class=" sitemap">
+                     {% if lang == 'en' %}
+                     <a href="{{host}}/sitemap" title="SiteMap"><i class="fas fa-sitemap"></i></a>
+                     {% else %}
+                     <a href="{{host}}/hi/sitemap" title="SiteMap"><i class="fas fa-sitemap"></i></a>
+                     {% endif %}
+                  </li>
+                  <li class="top-login">
+                     {% if lang == 'en' %}
+                        {% if logged_in %}
+                        <a href="{{host}}/user/logout" title="Logout">Logout</a>
+                        {% else %}
+                        <a href="{{host}}/user/login" title="Login">Login</a>
+                        {% endif %}
+                     {% else %}
+                        {% if logged_in %}
+                           <a href="{{host}}/hi/user/logout" title="Logout">Logout</a>
+                        {% else %}
+                        <a href="{{host}}/hi/user/login" title="Login">Login</a>
+                        {% endif %}
+                     {% endif %} 
+                  </li>
+                  <li class="dropdown cog-dropdown">
+                     {{ page.language_switcher }}
+                  </li>
+               </ul>
+            </div>
+         </div>
+
+      </div>
+   </div>
+   <!---====== top nav end  =======-->
+   <div class="mid-nav pt-2 pb-2 bg-mid-nav">
+      <div class="container">
+         {{ page.header }}
+      </div>
+   </div>
+   <!-- ===== mid nav end ===== -->
+
+   <!--===== HEADER END =====-->
+
+
+   <!-- Navbar -->
+   <div class="menu-bar">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12 p-0">
+               <div class="menu_wrapper">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        {{page.primary_menu}}
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>  
+</div> 

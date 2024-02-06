@@ -1,0 +1,764 @@
+.wrapper .menu-bar .menu_wrapper ul > li > a {
+    color: yellow !important;
+}
+
+.wrapper.light-header .top-nav {
+    background: #000000;
+}
+.wrapper .top-nav .left-panel.top_logo li a {
+    color: yellow!important
+}
+.wrapper .top-nav .right-panel li a {
+    color: yellow!important;
+}
+.wrapper .menu-bar {
+    background: black;
+}
+.wrapper .menu-bar .menu_wrapper .menu-listing > li > a {
+    color: yellow !important;
+}
+.wrapper .menu-bar .menu_wrapper .menu-listing > li >ul.sub-menu a {
+    color: yellow !important;
+}
+.wrapper .menu-bar .menu_wrapper .menu-listing li .sub-menu .dropdown-item:hover {
+    background: yellow;
+    color: #000000;
+}
+.wrapper .menu-bar .menu_wrapper .menu-listing li a.active, .wrapper .menu-bar .menu_wrapper .menu-listing li a:hover {
+    background: yellow!important;
+    color: #000000 !important;
+}
+
+.wrapper .menu-bar .menu_wrapper .menu-listing li .sub-menu .dropdown-item:hover {
+    background: yellow;
+    color: #000000!important;
+}
+.wrapper .menu-bar .menu_wrapper .menu-listing li .sub-menu .dropdown-item:hover a{
+    background: yellow;
+    color: #000000!important;
+}
+.wrapper.light-header .menu-bar .dropdown-menu {
+    background: black;
+}
+.wrapper .top-nav .right-panel li a i {
+    color: yellow;
+}
+.wrapper .menu-bar .menu_wrapper .menu-listing li a[aria-expanded="true"] {
+    background: yellow;
+    color: #000000!important;
+}
+.event-list .event-gallery li {
+    background: black;
+}
+.news-department.news-department-bg.light-theme .notification-tab .nav-item a.active {
+    background: #000000d4;
+    color: yellow!important;
+}
+.bg-lightblue {
+    background: #000000d4;
+}
+#key_intiative .figure.position-relative .figcaption {
+    background: #000000db;
+}
+.news-department .notification-tab .nav-item a {
+    border: 1px solid #000000d4;
+}
+#key_intiative .hoverdesc span {
+    color: yellow;
+}
+.owl-carousel .owl-nav button, .banner-slider .owl-nav button {
+    background: #000000 !important;
+}
+#key_intiative .hoverdesc p {
+    color: yellow;
+}
+.bg-orange {
+    background: yellow;
+}
+#key_intiative .hoverdesc a {
+    color: #000000!important;
+}
+.event-list .event-gallery li {
+    background: black;
+}
+.event-list .event-gallery .event-desc .event-title {
+    color: yellow;
+}
+.event-list .event-gallery .event-desc .event-info {
+ color: yellow;
+}
+.event-list .event-gallery .event-desc .event-para {
+color: yellow;
+}
+
+.bg-skylight {
+    background: black;
+}
+.announcement-list .event-desc .event-title {
+    color: yellow;
+}
+.announcement-list .event-desc .event-info {
+    color: yellow
+}
+.announcement-list .event-desc .event-para {
+    color: yellow;
+}
+.bg-blue {
+    background: #2b2b2b;
+}
+.leadership .title_desc h3 {
+    color: yellow;
+}
+.leadership .title_desc p {
+    color: yellow;
+}
+.leadership .leadershipsec {
+    background: black;
+}
+.leadership .leadershipsec .img-desc h4 {
+    color: yellow;
+}
+.leadership .leadershipsec .img-desc p {
+    color: yellow;
+}
+.leadership .leadershipsec figure img {
+    border: 10px solid yellow;
+}
+.worksec{
+    background: #000000;
+}
+#worksec .work-left h3 {
+    color: yellow;
+}
+#worksec .work-left p {
+    color: yellow;
+}
+#worksec .work-right ul li:hover {
+    background: yellow;
+}
+#worksec .work-right ul li:hover span{
+    color: #000000;
+}
+#worksec .work-right ul li span {
+    color: yellow;
+}
+.footer-top {
+    background: #000000;
+}
+.footer-bottom {
+    background: #2b2b2b;
+}
+.footer-bottom p {
+    color: yellow;
+}
+.footer-top ul li a {
+    color: yellow!important;
+}
+.footer-top h6 {
+    color: yellow;
+}
+.footer-top ul.notification-listing li {
+    color: yellow;
+}
+.modify {
+    color: yellow;
+}
+.visitor {
+    color: yellow;
+}
+.region-our-work h2{
+    color: yellow;
+}
+.news-department .notification-tab .tab-content a.view-more-btn {
+    background: yellow;
+    color: #000000!important;
+}
+.news-department a.view-more-btn {
+    background: yellow;
+    color: #000000!important;
+}
+.current-project .inner-column.lightblue {
+    background: #000000;
+}
+.current-project ul.notification-listing li > i {
+    color: yellow;
+}
+.bg-gradient {
+    background:#000000
+}
+
+.top-footer {
+    background: #000000;
+}
+footer.footer.footer-bg .footer-bottom {
+    background: #000000;
+}
+.top-footer ul > li > a {
+    color: yellow;
+}
+.top-footer ul > li::after {
+    background: yellow;
+   
+}
+/* event page css start */
+h5 {
+    color: yellow;
+}
+.event-list .event-gallery.event-page li {
+    background: #000000;
+    padding: 10px;
+    border-bottom: 1px solid yellow;
+}
+.event-list .event-gallery .event-desc .event-title {
+    color: yellow;
+}
+.event-list .event-gallery .event-desc .event-info {
+    color: yellow;
+}
+.event-list .event-gallery .event-desc .event-para {
+    color: yellow;
+}
+
+.event-list .event-gallery.event-page .sectors a {
+    background: #2b2b2b;
+    color: yellow;
+}
+.left-menu .notification-listing li a.active {
+    background: yellow;
+    color: #000000;
+}
+.left-menu .notification-listing li a {
+    color: yellow;
+}
+.left-menu .card-header {
+    border-bottom: 40px solid #2b2b2b;
+}
+.left-menu .our-work h4 {
+    color: yellow;
+}
+.left-menu .our-work ul li a {
+    color: yellow;
+}
+.navy-btn {
+    background: yellow;
+    color: #000000;
+}
+#accordion .accordion-toggle {
+    background-color: #000000;
+    color: yellow;
+}
+#accordion .panel-heading .accordion-toggle::before {
+    color: yellow;
+}
+.faq-tab .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #000000;
+    background: yellow;
+}
+.chevron::before {
+    border-top-color: yellow;
+}
+.faq-tab .nav-tabs .nav-link:hover {
+    color: #000000;
+    background: yellow;
+}
+/* leadership css start here */
+
+.leader-list {
+    background: #2b2b2b;
+}
+.leader-list .leader-desc .leader-title {
+    color: yellow;
+}
+.leader-list .leader-desc .leader-title a{
+    color: yellow;
+}
+.leader-list .leader-desc .leader-info {
+    color: yellow;
+}
+.leader-list .leader-desc .leader-para {
+    color: yellow;
+}
+.view-more {
+    background: yellow;
+    color: #000000!important;
+}
+.compositionsec table thead {
+    background: #ffff00;
+    color: #000000;
+}
+.compositionsec table tbody td,.compositionsec table tbody td a {
+    color: yellow;
+    background: #000000;
+}
+.table tbody tr:nth-of-type(even) {
+    background-color: #2b2b2b;
+}
+.compositionsec table thead th {
+    color: #000000;
+}
+/* media page css start here */
+.main-right-panel .media-gallery .caption {
+    background: #000000;
+}
+.main-right-panel .media-gallery .caption a {
+    color: yellow!important;
+}
+
+/* team ddc css start here */
+.team-ddc .team-list {
+    background: #2b2b2b;
+}
+.team-ddc .team-list .team-title {
+    color: yellow;
+}
+.team-ddc .team-list .team-info {
+    color: yellow;
+}
+.team-profile a {
+    color: yellow;
+}
+.bg-darkblue {
+    background: #000000;
+}
+.team-contact i {
+    color: yellow;
+}
+/* delhi47 css start here */
+.bg-dark-blue {
+    background: #000000;
+}
+.news-department ul.notification-listing li > i {
+    color: yellow;
+}
+.notification-listing.items-text-white li > a {
+    color: yellow;
+}
+.text-white {
+    color: yellow!important;
+}
+.figure.position-relative .figcaption span {
+    color: yellow;
+}
+.figure.position-relative .figcaption p {
+    color: yellow;
+}
+.figure.position-relative .figcaption {
+    background: #191515e3;
+}
+li.nav-item.more-menu.bg-red.active {
+    background: yellow;
+}
+li.nav-item.more-menu.bg-red.active a{
+    color: #000000;
+}
+.footer-top h2 {
+    color: yellow;
+}
+.announcement-list .event-desc .event-title a {
+    color: yellow;
+}
+ /* Track */
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: yellow; 
+  }
+
+  /* inner page css */
+  #maincontent{
+      background-color: #000000;
+  }
+  .main-right-panel p{
+      color: yellow;
+  }
+  .left-menu ul.menu-listing.notification-listing li.nav-item:hover, .left-menu ul.menu-listing.notification-listing li.nav-item.active {
+    background: yellow;
+}
+.left-menu ul.menu-listing.notification-listing li.nav-item a:hover, .left-menu ul.menu-listing.notification-listing li.nav-item.active a, .left-menu ul.menu-listing.notification-listing li.nav-item:hover a {
+    color: #000000!important;
+}
+.key_initiative_footer {
+    background: #000000;
+}
+.footer-bottom .footer-border {
+    border-top: 2px solid yellow;
+}
+.key_initiative_footer ul.notification-listing li a {
+    color: yellow !important;
+}
+.page-title h2 {
+    color: yellow;
+}
+.page-title a, .page-title span {
+    color: yellow!important;
+}
+.page-title a, .page-title span {
+    color: yellow!important;
+}
+.leader-list .leader-desc .leader-para p {
+    color: yellow;
+}
+.view-more a {
+    background:yellow;
+    color: #000000!important;
+}
+
+.block-views-blockleadership-profile-details-block-1 h2 {
+   color: yellow}
+   .compositionsec table thead, table thead {
+    background: yellow;
+    color: #000000;
+}
+.compositionsec table thead th, table thead th {
+    color: #000000;
+}
+.table tbody tr:nth-of-type(even), table tbody tr:nth-of-type(even) {
+    background-color: #2b2b2b;
+}
+.compositionsec table tbody td, table tbody td,.compositionsec table tbody td a, table tbody td a{
+    color: yellow;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #3c3c35;
+}
+.left-menu .our-work ul li:hover {
+    background: yellow;
+}
+.left-menu .our-work ul li:hover a {
+    color: #000000 !important;
+}
+.card {
+    background-color: transparent!important;
+}
+.contact-detail ul li strong {
+    color: yellow;
+}
+.contact-detail ul li a {
+    color: yellow;
+}
+a {
+    color: yellow;
+}
+.item-list li {
+    color:yellow;
+}
+.contextual-region {
+    color: yellow;
+}
+.know_more.bg-orange a {
+    color: #000000 !important;
+}
+.latest-news.notification-listing li a {
+    color: yellow!important;
+}
+#block-joindelhisection-2 h2{
+    color: #000000!important;
+}
+.leadership.query .leadershipsec{
+    background: #2b2b2b;
+}
+.more-menu-wrapper li > a {
+    color: #000;
+}
+.bn-news ul li a{
+    color: yellow;
+}
+.link-orange{
+    color: #EE4512;
+}
+.join-delhi h2{
+    color: #000000!important;
+}
+.view-id-cm_fellows_details ul.nav a.active, .view-id-opportunities ul.nav a.active {
+    background: #000000;
+    color: yellow !important;
+}
+#block-joindelhifirst h2.heading-2 {color: #000000!important;}
+h2.heading-2 {color: yellow!important;}
+.view-filters {
+    background: #2b2b2b;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #000000;
+    background-color: yellow;
+
+}
+
+.view-filters .button {
+    background: yellow;
+    color: #000000;
+   
+}
+.event-list .event-gallery .event-desc .event-para p {
+    color: yellow;
+}
+.event-profile .event-desc p {
+    color: yellow;
+}
+ul li,ol li{
+    color: yellow;
+}
+.event-profile .event-desc .event-info {
+    color: yellow;
+}
+.tabs a.is-active {
+    background-color: #2b2b2b;
+}
+
+.bg-light-grey {
+    background: #2b2b2b;
+}
+.bannertagline p {
+    color: yellow;
+}
+
+.pointer {
+    background: yellow;
+    color: #000000;
+}
+.pointer:before {
+    border-left: 25px solid yellow;
+}
+span.fas.fa-quote-right {
+    background: #2b2b2b;
+}
+.border-4 {
+    border-bottom: 4px solid #2b2b2b;
+}
+.cm-fellow.py-50 {
+    background: #2b2b2b;
+}
+.cm-fellow .card p, .cm-fellow .card p a {
+    color: yellow;
+}
+.cmulf_pointer {
+    background: yellow;
+}
+.cmulf_pointer:before {
+    border-left: 25px solid yellow;
+}
+.cmulf_pointer strong{
+  color: #000000;
+}
+.faq-tab .nav-tabs .nav-item a.show, .nav-tabs .nav-link.active {
+    color: #000000 !important;
+    background: yellow;
+   
+}
+.faq-tab .nav-tabs a:hover {
+    color: #000000 !important;
+    background: yellow;
+   
+}
+#accordion .accordion-toggle, .card-link {
+    background-color: yellow !important;
+}
+#news_tricker_h {
+    background: #2b2b2b;
+}
+.newsfeed_label {
+    color: #000000;
+    background: yellow;
+}
+.bn-controls button {
+    background: yellow;
+}
+.bn-arrow::after {
+    border-color: #000000;
+}
+.bn-pause::before {
+    background: #000000;
+}
+.bn-pause::after {
+    background: #000000;
+}
+.bn-controls button:hover {
+    background: yellow;
+}
+
+.more-menu-wrapper .menu--dilli-first-menu .menu-listing li .sub-menu .dropdown-item a {
+    color: yellow;
+}
+.more-menu-wrapper .menu--dilli-first-menu .menu-listing li .sub-menu .dropdown-item a:hover {
+    background:yellow;
+    color: #000000 !important;
+}
+.event-list .event-gallery .event-desc .event-title a {
+    color: yellow!important;
+}
+.figure.position-relative .figcaption span a {
+    color: yellow!important;
+}
+.left-menu .notification-listing li.nav-item.dropdown.level-0.show ul li a:hover {
+    color: yellow !important;
+}
+.left-menu .menu-listing li .dropdown-menu .dropdown-item {
+    background-color: #2b2b2b;
+}
+.left-menu .menu-listing li .dropdown-menu .dropdown-item a {
+    color: yellow!important
+    
+}
+.left-menu .notification-listing li.nav-item.dropdown.level-0.show:hover ul li a {
+    color: yellow !important;
+  }
+  .left-menu .notification-listing li.nav-item.dropdown.level-0.show ul li a:hover {
+    color: #000000 !important;
+  }
+  .left-menu .menu-listing li .dropdown-menu .dropdown-item a:hover {
+    color: #000000!important;
+    background-color:yellow;
+}
+.custom-title{
+    color: yellow;
+}
+.about-us p {
+    color: yellow;
+}
+.event-list .event-gallery .event-desc a {
+    color: #000000!important;
+}
+label {
+    color: yellow;
+}
+.event-desc .heading {
+    background: yellow;
+    color: #000000;
+}
+.event-desc .heading .arrow-right {
+    border-left: 18px solid yellow;
+}
+.summary {
+    background: #2b2b2b;
+}
+.summary .leader-desc .leader-title {
+    color: yellow;
+}
+.summary .leader-desc .leader-info {
+    color: yellow;
+}
+.tagging ul li {
+    background: yellow !important;
+}
+.coverage-bdr {
+    border-bottom: 1px solid yellow;
+    border-top: 1px solid yellow;
+    color: yellow!important;
+}
+.event-desc .heading {
+    background: yellow;
+    color: #000000;
+}
+.event-desc .heading .arrow-right {
+    border-left: 18px solid yellow;
+}
+.coverage-list .coverage-gallery li {
+    background: #2b2b2b;
+    border-bottom: 1px solid yellow;
+}
+.coverage-list .coverage-gallery .coverage-desc .coverage-title {
+    color: yellow;
+}
+.coverage-list .coverage-gallery .coverage-desc .coverage-info {
+    color: yellow;
+}
+table thead {
+    border: 1px solid #ffff00;
+}
+.aboutcmulf_quotes {
+    color: yellow;
+}
+.pager .pager__items li a {
+    color: #ffffff;
+}
+.wrapper .top-nav .right-panel li .dropdown-menu {
+    background: #000000;
+}
+body.path-sitemap .sitemap-item--menu-main h2, body.path-sitemap .sitemap-item--menu-footer-menu h2, body.path-sitemap .sitemap-item--menu-delhi-2047-menu h2, body.path-sitemap .sitemap-item--menu-cmulf-menu h2, body.path-sitemap .sitemap-item--menu-dilli-first-menu h2 {
+    background: yellow;
+    color: #000000;
+}
+body.path-sitemap .sitemap-item--menu-main h2:before, body.path-sitemap .sitemap-item--menu-footer-menu h2:before, body.path-sitemap .sitemap-item--menu-delhi-2047-menu h2:before, body.path-sitemap .sitemap-item--menu-cmulf-menu h2:before, body.path-sitemap .sitemap-item--menu-dilli-first-menu h2:before {
+    border-left: 18px solid yellow;
+}
+.humburger-ico i {
+    color: yellow!important;
+}
+.closemenu i{
+    color: yellow!important;
+}
+.closemenu {
+    background: #000000!important;
+   
+} 
+
+.pointer strong{
+    color: #000000!important;
+}
+.leadership.query .leadershipsec figure {
+    background: #2b2b2b;
+}
+.leader-profile .leader-desc .leader-title {
+    color: yellow;
+}
+.leader-profile .leader-desc {
+    color: yellow;
+}
+.leader-profile .leader-desc .social-link a {
+    color: yellow;
+}
+.view-empty{
+    color: yellow;
+}
+.field--name-field-current-projects-category {
+    background: yellow;
+    color: #000000;
+}
+.event-list .event-gallery .event-desc .event-para a {
+    color: #EE4512!important;
+}
+.personal_details label{
+    color: #000000!important;
+}
+.figure.position-relative .figcaption span.know_more a {
+    color: #000000!important;
+}
+
+.sector-report a span {
+    color: yellow
+}
+h1,h2,h3,h4,h5,h6{
+    color: yellow
+}
+#worksec .work-right ul li:hover a {
+color: #000000;
+}
+.wrapper .top-nav .right-panel li .dropdown-menu.social-menu{
+    background: #000000;
+}
+.wrapper .top-nav .right-panel li .dropdown-menu.social-menu a:hover{
+    background: #000000;
+}
+#worksec .work-right ul li a {
+    color: yellow;
+}
+.pager .pager__items li.pager__item.is-active a {
+    background-color:yellow;
+    color: #000000;
+}
+.pager .pager__items li a:hover {
+    background-color:yellow;
+    color: #000000!important;
+}
+ol li a,ul li a{
+    color: yellow;
+}
+.main-right-panel p a{
+    color: yellow;
+}
+.sitemap ul li a{
+    color: yellow;
+}

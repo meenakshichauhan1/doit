@@ -1,0 +1,53 @@
+
+
+        global-styling:
+  
+  js:
+    js/bootstrap.bundle.js: {}
+    js/fontawesome.js: {}
+    js/owl.carousel.min.js: {}
+    js/es6-promise.min.js: {}
+    js/jquery.magnific-popup.js: {}
+    js/custom.js: {}
+    js/filesize.js: {}
+    js/ticker.min.js: {}
+    js/jquery.smartmenus.js: {}
+    js/jquery.smartmenus.bootstrap-4.js: {}
+    //translate.google.com/translate_a/element.js?cb=googleTranslateElementInit: { type: external, attributes: { async: true } } 
+    
+    
+  css:
+    theme:
+        css/bootstrap.min.css: {}
+        css/all.css: {}
+        css/owl.carousel.min.css: {}
+        css/owl.carousel.css: {}
+        css/owl.theme.default.min.css: {}
+        css/magnific-popup.css: {}
+        css/style.css: {}
+        css/variable.css: {}
+        css/ticker.css: {}
+        css/jquery.dataTables.min.css: {}
+        css/jquery.smartmenus.bootstrap-4.css: {}
+        css/responsive.css: {}
+         
+
+     
+
+  dependencies:
+    - system/admin
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    
+custom-library:
+
+  js:
+    js/jquery.dataTables.min.js: {}
+    js/custom-basic.js: {}
+    
+  dependencies:
+    - system/admin
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings 
